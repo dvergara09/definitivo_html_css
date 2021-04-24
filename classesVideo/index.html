@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- controls trae los controles del video
+        hay atributos que traen un valor y otros que son solo palabras
+        preload que el video se renderize cuando se crea la pagina
+        que el video se reproduzca solo es una mala practica
+        #t=2,5 significa que empieza en tal segundo y termina en tal segundo
+        source para validar varios tipos de videos
+    -->
+        <video controls preload="auto">
+          <source src="./video.mp4#t=2,6" />
+          <source src="./video.avi#t=2,6" type="" />
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
