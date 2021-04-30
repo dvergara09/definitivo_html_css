@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: serif;
+  color: purple;
+  margin-bottom: 10px;
+}
+
+#page-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+/*Aqui se nota la especificidad,
+en este caso no se carga el font-family
+del .title porque antes hay un id que es mas
+importante para el navegador que la clase
+en el inspector de elementos vemos los estilos en orden*/
+
+#main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#main-nav li {
+  display: inline-block;
+}
+
+#main-nav a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.blog {
+  background-color: red !important;
+}
+
+/* aqui a blog no se le cambia el color
+porque el estilo embebido es mas importante que la clase y el id juntos */
