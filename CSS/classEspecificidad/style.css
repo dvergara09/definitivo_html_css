@@ -10,10 +10,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-#page-title {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .title {
   font-size: 18px;
   font-family: monospace;
@@ -25,17 +21,17 @@ del .title porque antes hay un id que es mas
 importante para el navegador que la clase
 en el inspector de elementos vemos los estilos en orden*/
 
-#main-nav {
+.nav {
   margin-top: 10px;
   list-style: none;
   padding-left: 0;
 }
 
-#main-nav li {
+.nav li {
   display: inline-block;
 }
 
-#main-nav a {
+.nav a {
   color: white;
   background-color: #13a4a4;
   padding: 5px;
@@ -43,8 +39,8 @@ en el inspector de elementos vemos los estilos en orden*/
   text-decoration: none;
 }
 
-.blog {
-  background-color: red !important;
+.nav .blog {
+  background-color: red;
 }
 
 /* aqui a blog no se le cambia el color
