@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* estas dos configuraciones deben ir arriba del css */
+
+p {
+  font-size: 1.6rem;
+}
+
+/* rem siempre hará referencia a la etiqueta html */
+
+main div {
+  font-size: 1.6rem;
+}
