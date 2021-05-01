@@ -9,3 +9,14 @@ h2 ~ p {
 }
 
 /* aplica el color verde a todos los p que tengan hermano general (juntos) a un h2*/
+
+div > p {
+  color: blueviolet;
+}
+
+/* que p sea hijo directo de div */
+
+div p {
+  color: teal;
+}
+/* todas las p que esten dentro de un div se les cambia el color */
