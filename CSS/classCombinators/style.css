@@ -1,0 +1,11 @@
+h2 + p {
+  color: red;
+}
+
+/* aplica el color rojo a todos los p que esten cerca de h2 */
+
+h2 ~ p {
+  color: green;
+}
+
+/* aplica el color verde a todos los p que tengan hermano general (juntos) a un h2*/
