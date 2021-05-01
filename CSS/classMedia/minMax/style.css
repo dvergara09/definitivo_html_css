@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: brown;
+}
+
+section {
+  width: 80%;
+  min-width: 320px;
+  max-width: 500px;
+  min-height: 200px;
+  background-color: darkblue;
+  margin: 0 auto;
+}
+
+/* margin 0 auto, de arriba abajo no agrega nada y de izquiera derecha margin automatico */
