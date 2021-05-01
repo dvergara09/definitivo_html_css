@@ -1,0 +1,13 @@
+.text-container {
+  font-size: 1.5em;
+}
+
+/* em = elemento
+toma el tamaño de fuente del padre del elemeto
+1 em será la medida del padre */
+
+.text-container div {
+  font-size: 1.5em;
+}
+
+/* toma medidas distintas, porque toma la medida del padre dos veces */
